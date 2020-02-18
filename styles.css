@@ -4,7 +4,22 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: "Lacquer", sans-serif;
+  text-transform: uppercase;
+}
+
 body {
+  font-family: "Roboto", sans-serif;
   background-color: rgb(25, 33, 44);
   color: rgb(255, 240, 28);
   margin: 0;
