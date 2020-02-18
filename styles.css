@@ -16,14 +16,78 @@ h5,
 .h5 {
   font-family: "Lacquer", sans-serif;
   text-transform: uppercase;
+  background: linear-gradient(to right, red, purple);
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1,
+.h1 {
+  font-size: 7rem;
+}
+
+h2,
+.h2 {
+  font-size: 6rem;
+}
+
+h3,
+.h3 {
+  font-size: 5rem;
+}
+
+h4,
+.h4 {
+  font-size: 4rem;
+}
+
+h5,
+.h5 {
+  font-size: 3rem;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(25, 33, 44);
-  color: rgb(255, 240, 28);
+  color: #fff;
   margin: 0;
   padding: 40px;
   width: 100vw;
   height: 100vh;
+}
+
+.header {
+  text-align: center;
+}
+
+.navbar li {
+  list-style-type: none;
+  padding: 2px;
+}
+
+.navbar .button {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: rgb(25, 33, 44);
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+}
+
+.gradient-border-wrap {
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+  max-width: 207px;
+}
+
+.owl-image {
+  width: 50vw;
+}
+
+article {
+  font-size: 1.15em;
 }
